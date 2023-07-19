@@ -128,7 +128,7 @@ button:hover,
 }
 .button.button-keybase:hover,
 .button.button-keybase:hover:before {
-    content: 'Haciendo click aquí puedes enviarme un mensaje!';
+    content: 'click here to send me a message!';
     white-space: initial; }
 
 /* Mail */
@@ -137,7 +137,7 @@ button:hover,
   background-color: #E8F3EC }
 .button.button-mail:hover,
 .button.button-mail:hover:before {
-    content: 'Haciendo click aquí, puedes enviarme un mail!';
+    content: 'click here to send me an email!';
     white-space: initial; }
 
 /* Blog */
@@ -150,7 +150,18 @@ button:hover,
 }
 .button.button-blog-custom:hover,
 .button.button-blog-custom:hover:before {
-    content: 'En construcción!';
+    content: 'Under Construction';
+    white-space: initial; }
+
+/* Resume */
+.button.button-resume {
+  color: #1F1F1A;
+  background-color: #F1EFE3;
+  border: 1px solid #212121;
+}
+.button.button-resume:hover,
+.button.button-resume:hover:before {
+    content: '';
     white-space: initial; }
 
 
